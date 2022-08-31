@@ -2,7 +2,7 @@
 Fibonacci rest API: Devuelve el valor de la serie de Fibonacci dado un índice o posisción
 
 
-# Sobre la implementacióin
+# Sobre la implementación
 Se utilizó lenguaje C#, ya que es el que actualmente estoy utilizando  
 
 ## Liberías/Herramientas de desarrollo

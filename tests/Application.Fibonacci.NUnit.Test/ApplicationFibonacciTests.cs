@@ -39,8 +39,20 @@ namespace Application.Fibonacci
             long result = _fibonacci.SerieFibonacci(6);
 
             //Assert
-            Assert.IsTrue(result == 8);
             Assert.That(result, Is.EqualTo(8));
+        }
+
+        [Test]
+        public void Fibonacci_Input13_Return8()
+        {
+            //Arrange
+
+            //Act
+            long result = _fibonacci.SerieFibonacci(13);
+
+            //Assert
+            Assert.IsTrue(result == 233);
+            Assert.That(result, Is.EqualTo(233));
         }
     }
 }

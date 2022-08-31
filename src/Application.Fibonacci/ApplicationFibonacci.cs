@@ -11,9 +11,16 @@ namespace Application.Fibonacci
 
         public long SerieFibonacci(int position)
         {
-            int result = 0;
+            long result = 0;
+            long temporal = 0;
+            long siguiente = 1;
 
-            //TODO: Realizar el algoritmo de fibonacci
+            for (int x = 1; x <= position; x++)
+            {               
+                temporal = result;
+                result = siguiente;
+                siguiente = siguiente + temporal;
+            }
 
             return result;
         }
